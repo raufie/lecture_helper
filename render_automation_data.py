@@ -65,7 +65,7 @@ try:
 
     get_frames_by_ffmpeg(sys.argv[1], sys.argv[2])
     exit()
-except:
-    print("THERE IS A FUCKING ERROR")
+except Exception as e:
+    print("THERE IS AN ERROR, ignore this if you see this for the first time")
+    print(e)
     pass
-# print(sys.argv)
