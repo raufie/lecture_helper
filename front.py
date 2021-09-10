@@ -114,7 +114,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
             os.system(
 
-                f"explorer E:\\Udemy\\Management\\lecture_helper\\media\\videos\\lecture\\{media}")
+                f"explorer {os.getcwd()}\\media\\videos\\lecture\\{media}")
             self.script_info_2.setText("Rendered ✅")
             self.script_info_2.setStyleSheet("color: green")
         except Exception as e:
