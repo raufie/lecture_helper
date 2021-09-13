@@ -10,7 +10,14 @@ class BasicLecture(Scene):
         self.loaded_waiting_time = self.get_waiting_time()
         # VIP CONSTRAINTS ABOVE -- WRITE CODE BELOW
         # Write animation code below
+        # MAKE SURE TO FOLLOW SOME COnVention or nothing will work
+        #there are only 2 rules
+
+        # 1: instead of calling self.wait(time) always call self.wait_and_count() 'dont pass any time as that's wht u set during rec time'
+        # 2: every animation must have run_time and give run_time by calling a function like ...
+        # 2... self.play(SomeAnim, runtime = self.get_runtime() )
 # -----------------------
+
 
 # -----------------------
 #   only write animation above
