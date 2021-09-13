@@ -15,7 +15,7 @@ class BasicLecture(Scene):
 
         # 1: instead of calling self.wait(time) always call self.wait_and_count() 'dont pass any time as that's wht u set during rec time'
         # 2: every animation must have run_time and give run_time by calling a function like ...
-        # 2... self.play(SomeAnim, runtime = self.get_runtime() )
+        # 2... self.play(SomeAnim, runtime = self.get_runtime(t) )
 # -----------------------
 
 
